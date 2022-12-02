@@ -1,0 +1,5 @@
+This is an example of the inverse-design algorithm, based on the gradient ascent/descent. Here it is used to optimise phase profiles (masks) of the multi-plane light conversion system in order to achieve efficient mode sorting/transforming. It is possible to adjust $\alpha$, $\beta$, $\gamma$ parameters of the specifically tailored objective function to improve the parameter of a particular interest, such as average cross-talk, average efficiency or average localised fidelity, for the specific application of the MPLC system. 
+
+This example code performs sorting of up to 55 random speckle 'modes' into spatially separated output channels. 
+The main file 'Gradient ascent - speckle mode sorter.ipynb' contains introductory remarks and all the detailed comments along with the code. 
+'utils.py' contains all the additional functions that are called from the main code, and 'Speckle_sorter_bases.mat' contains pre-generated input-output bases for the sorter.
